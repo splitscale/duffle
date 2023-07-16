@@ -1,8 +1,12 @@
 {
   "name": "duffle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./bin/index.js",
+  "types": "./bin/index.d.ts",
+  "files": [
+    "bin/"
+  ],
   "type": "module",
   "scripts": {
     "test": "jest",
