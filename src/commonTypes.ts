@@ -5,7 +5,7 @@ import { DuffleStatus } from './duffleStatusCodes';
 export interface DuffleRequest {
   method: DuffleRequestMethods;
   url: string;
-  body?: Map<string, any>;
+  body?: Map<string, any> | Object | string;
 }
 
 // Define an interface for an HTTP response
